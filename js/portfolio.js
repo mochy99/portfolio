@@ -25,13 +25,13 @@ $(document).ready(function () {
         const screenHeight = $(window).height();
         const screenWidth = $(window).width();
         const numberSections = 5
-        const displacement = screenHeight * numberSections * 1.1;
+        const displacement = screenHeight * numberSections * 1.09;
         const widthLunar = screenWidth * 0.85;
         const heightLunar = screenHeight * 0.15 * 0.55;
         const radius_moon = moon.width();
         const widthEarth = radius_moon * 0.88;
         const heightEarth = radius_moon * 0.4;
-        const gapOfName = 40 - 12;
+        const gapOfName = 40 - 10;
         const gapOfNameFont = 6 - 3;
 
         let y_section2 = section2.offset().top;
@@ -76,7 +76,7 @@ $(document).ready(function () {
         let y_position_moon = y_change_moon + "px";
         moon.css("bottom", y_position_moon);
         
-        let x_change_earth = x_change_moon  + 18 + widthEarth * change_blank;
+        let x_change_earth = x_change_moon  + 30 + widthEarth * change_blank;
         let x_position_earth = x_change_earth + "px";
         earth.css("left", x_position_earth);
         

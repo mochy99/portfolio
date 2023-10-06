@@ -101,9 +101,9 @@ h2 {
 button {
     width: 80vw;
     height: 5vh;
-    border-radius: 100px;
     border: none;
-    background-color: var(--color-box2);
+    background-color: transparent;
+    border: 1px var(--color-box2) solid;
 }
 main {
     overflow-y: scroll;
@@ -178,10 +178,18 @@ main {
     width: 18vh;
     height: 18vh;
 }
+.border-right {
+    width: 25vw;
+    border-top: 1vh solid transparent;
+    border-image: linear-gradient(90deg, var(--button-color-1), var(--button-color-2)) 1;
+    border-image-slice: 1;
+    align-self: start;
+    margin-left: 10vw;
+    margin-top: -1vh;
+}
 #story {
     width: 60vw;
     font-size: 1.5vh;
-    border-top: 2.5px var(--color-box2) dashed;
     padding: 2vh;
     line-height: 1.7;
     text-align: justify;
@@ -334,19 +342,21 @@ textarea {
     margin-top: 2vh;
 }
 .social {
-    height: 5vh;
-    width: 5vh;
+    height: 7vh;
+    width: 7vh;
     background-position: center;
     background-size: cover;
+    border-radius: 0;
 }
-#linkedin {
+
+.linkedin {
     background-image: url("../image/social/linkedin.png");
 }
-#github {
+.github {
     background-image: url("../image/social/github.png");
 }
-#email {
-    background-image: url('../image/social/email.webp');
+.email {
+    background-image: url('../image/social/email.png');
 }
 .visible {
     visibility: visible;
@@ -357,7 +367,7 @@ textarea {
 }
 /* For WebKit-based browsers like Chrome and Safari */
 
-::-webkit-scrollbar, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb:hover {
+::-wegithbkit-scrollbar, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb:hover {
     background: none; /* Thumb color (the draggable part) */
     border: none; /* Rounded corners for the thumb */
 }
@@ -467,7 +477,7 @@ textarea {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        margin-right: 1vw;
+        margin-right: 5vw;
     }
     input, textarea {
         width: 40vw;
@@ -478,8 +488,9 @@ textarea {
     .social-link {
         align-items: center;
         height: 50vh;
-        border: none;
-        border-left: 1.5px var(--color-box2) dashed;
+        border-top: none;
+        border-left: 3px solid transparent;
+        border-image: linear-gradient(175deg, var(--button-color-1), var(--button-color-2)) 1;
     }
     .flip-box {
         flex-direction: row;
@@ -492,7 +503,8 @@ textarea {
         width: 40vw;
         font-size: 2.3vh;
         border-top: none;
-        border-left: 2.5px var(--color-box2) dashed;
+        border-left: 3px solid transparent;
+        border-image: linear-gradient(175deg, var(--button-color-1), var(--button-color-2)) 1;
     }
     .skills {
         width: 40vw;

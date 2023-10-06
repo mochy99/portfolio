@@ -1,10 +1,5 @@
 
 $(document).ready(function () {
-    // Display image of techinal skills
-    $('.skill-icon').each(function() {
-        var skillName = this.id; // Get the ID of the element
-        $(this).css('background-image', 'url(/image/' + skillName + '.png)');
-    });
     // Declare variables
     const background = $(".background");
     const lunar = $(".lunar");
@@ -20,6 +15,11 @@ $(document).ready(function () {
     const project2 = $("#technical-skills");
     const contact = $(".contact");
 
+    // Display image of techinal skills
+    $('.skill-icon').each(function() {
+        var skillName = this.id; // Get the ID of the element
+        $(this).css('background-image', 'url(/image/' + skillName + '.png)');
+    });
 
     main.on('scroll', function () {
         const screenHeight = $(window).height();
@@ -76,17 +76,22 @@ $(document).ready(function () {
         let y_position_moon = y_change_moon + "px";
         moon.css("bottom", y_position_moon);
         
-        let x_change_earth = x_change_moon  + 30 + widthEarth * change_blank;
+        let x_change_earth = x_change_moon + 8 + widthEarth * change_blank * 1.38;
         let x_position_earth = x_change_earth + "px";
         earth.css("left", x_position_earth);
         
-        let y_change_earth = y_change_moon - heightEarth * change_blank * 0.75;
+        let y_change_earth = y_change_moon - heightEarth * change_blank * 0.5;
         let y_position_earth = y_change_earth + "px";
         earth.css("bottom", y_position_earth);
      
 
     });
     
+    // Btn click
+    $('button').on('click', function () {
+        let link = $(this).attr('id');
+        window.location.href = link;
+    })
     
 
     $('.expand').on('click', function () {

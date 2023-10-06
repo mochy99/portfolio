@@ -119,7 +119,7 @@ main {
     background-attachment: fixed;
 }
 .blank, .project, .contact {
-    padding-top: 23vh;
+    padding-top: 15vh;
     scroll-snap-stop: always;
     scroll-snap-align: center;
     width: 100vw;
@@ -188,22 +188,22 @@ main {
 }
 .skills {
     width: 85vw;
-    height: 65vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 5vw;
 }
 .set {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9vw;
+    gap: 2vw;
 }
 .skill-set {
-    width: 9vh;
-    height: 9vh;
+    width: 18vw;
+    height: 7vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,8 +215,8 @@ main {
     border-image-slice: 1; 
 }
 .skill-icon {
-    width: 6vh;
-    height: 6vh;
+    width: 5vh;
+    height: 5vh;
     background-size: cover;
     background-position: center;
 }
@@ -253,7 +253,7 @@ main {
     background-color: var(--color-box2);
     justify-self: end;
     animation: vibration 0.5s infinite;
-    margin-left: -12vw;
+    margin-left: -8.5vw;
     margin-top: 11vh;
     font-size: 3vh;
 }
@@ -295,6 +295,14 @@ h4 {
     justify-content: center;
     gap: 2vh
 }
+
+.form {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 input, textarea {
    width: 55vw;
    border: none;
@@ -310,14 +318,19 @@ input:focus, textarea:focus {
 input[type='email'] {
     height: 5vh;
 }
+textarea {
+    height: 20vh;
+}
 
 .social-link {
     display: flex;
     justify-content: center;
     gap: 2vh;
-    width: inherit;
-    border: 1.5px var(--color-box2) dashed;
-    padding: 1vh;
+    width: 50vw;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(90deg, var(--button-color-1), var(--button-color-2)) 1;
+    border-image-slice: 1;
+    padding: 3vh;
     margin-top: 2vh;
 }
 .social {
@@ -448,7 +461,7 @@ input[type='email'] {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    form {
+    .form {
         height: 55vh;
         display: flex;
         flex-direction: column;

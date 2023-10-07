@@ -25,13 +25,13 @@ $(document).ready(function () {
         const screenHeight = $(window).height();
         const screenWidth = $(window).width();
         const numberSections = 5
-        const displacement = screenHeight * numberSections * 1.09;
+        const displacement = screenHeight * numberSections * 0.95;
         const widthLunar = screenWidth * 0.85;
         const heightLunar = screenHeight * 0.15 * 0.55;
         const radius_moon = moon.width();
         const widthEarth = radius_moon * 0.88;
         const heightEarth = radius_moon * 0.4;
-        const gapOfName = 40 - 10;
+        const gapOfName = 25 - (-9);
         const gapOfNameFont = 6 - 3;
 
         let y_section2 = section2.offset().top;
@@ -90,7 +90,7 @@ $(document).ready(function () {
     // Btn click
     $('button').on('click', function () {
         let link = $(this).attr('id');
-        window.location.href = link;
+       window.location.href = link;
     })
     
 

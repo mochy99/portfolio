@@ -133,7 +133,8 @@ $(document).ready(function () {
     })
 
     // Display images of project 2
-    const image = ["../image/tradeX/1.png", "../image/tradeX/2.png", "../image/tradeX/3.png", "image/tradeX/4.png"];
+    const image = ["../image/tradeX/1.jpg", "../image/tradeX/2.jpg", "../image/tradeX/3.jpg", "image/tradeX/4.jpg", "image/tradeX/5.jpg",
+                    "image/tradeX/6.jpg", "image/tradeX/7.jpg"];
     let index = 1;
     setInterval(function() {
         const currentIndex = index % image.length;

@@ -1,0 +1,440 @@
+[
+    {
+    "author": "Albert Einstein",
+    "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving."
+    },
+    {
+    "author": "Maya Angelou",
+    "quote": "You will face many defeats in life, but never let yourself be defeated."
+    },
+    {
+    "author": "Steve Jobs",
+    "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work."
+    },
+    {
+    "author": "C.S. Lewis",
+    "quote": "You are never too old to set another goal or to dream a new dream."
+    },
+    {
+    "author": "Eleanor Roosevelt",
+    "quote": "The future belongs to those who believe in the beauty of their dreams."
+    },
+    {
+    "author": "Walt Disney",
+    "quote": "The way to get started is to quit talking and begin doing."
+    },
+    {
+    "author": "Oprah Winfrey",
+    "quote": "You become what you believe."
+    },
+    {
+    "author": "Thomas Edison",
+    "quote": "I have not failed. I've just found 10,000 ways that won't work."
+    },
+    {
+    "author": "Confucius",
+    "quote": "It does not matter how slowly you go as long as you do not stop."
+    },
+    {
+    "author": "J.K. Rowling",
+    "quote": "It is our choices that show what we truly are, far more than our abilities."
+    },
+    {
+    "author": "Nelson Mandela",
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall."
+    },
+    {
+    "author": "Martin Luther King Jr.",
+    "quote": "The time is always right to do what is right."
+    },
+    {
+    "author": "Aristotle",
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+    },
+    {
+    "author": "William Shakespeare",
+    "quote": "This above all: to thine own self be true."
+    },
+    {
+    "author": "Vincent Van Gogh",
+    "quote": "Great things are not done by impulse, but by a series of small things brought together."
+    },
+    {
+    "author": "Helen Keller",
+    "quote": "The best and most beautiful things in the world cannot be seen or even touched, they must be felt with the heart."
+    },
+    {
+    "author": "John F. Kennedy",
+    "quote": "Change is the law of life. And those who look only to the past or present are certain to miss the future."
+    },
+    {
+    "author": "Dalai Lama",
+    "quote": "Happiness is not something ready-made. It comes from your own actions."
+    },
+    {
+    "author": "Henry Ford",
+    "quote": "Whether you think you can, or you think you can't – you're right."
+    },
+    {
+    "author": "Ralph Waldo Emerson",
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+    },
+    {
+    "author": "Anne Frank",
+    "quote": "No one has ever become poor by giving."
+    },
+    {
+    "author": "Bruce Lee",
+    "quote": "Absorb what is useful, discard what is not, add what is uniquely your own."
+    },
+    {
+    "author": "Abraham Lincoln",
+    "quote": "I'm a success today because I had a friend who believed in me and I didn't have the heart to let him down."
+    },
+    {
+    "author": "Eleanor Roosevelt",
+    "quote": "Do what you feel in your heart to be right – for you'll be criticized anyway."
+    },
+    {
+    "author": "Winston S. Churchill",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+    },
+    {
+    "author": "Coco Chanel",
+    "quote": "Success is most often achieved by those who don’t know that failure is inevitable."
+    },
+    {
+    "author": "Frank Sinatra",
+    "quote": "The best revenge is massive success."
+    },
+    {
+    "author": "Babe Ruth",
+    "quote": "Never let the fear of striking out keep you from playing the game."
+    },
+    {
+    "author": "Muhammad Ali",
+    "quote": "Don't count the days, make the days count."
+    },
+    {
+    "author": "J.R.R. Tolkien",
+    "quote": "Even the smallest person can change the course of the future."
+    },
+    {
+    "author": "Ayn Rand",
+    "quote": "The question isn’t who is going to let me; it’s who is going to stop me."
+    },
+    {
+    "author": "Malcolm X",
+    "quote": "If you have no critics, you'll likely have no success."
+    },
+    {
+    "author": "Albert Einstein",
+    "quote": "I have no special talent. I am only passionately curious."
+    },
+    {
+    "author": "Thomas Jefferson",
+    "quote": "I find that the harder I work, the more luck I seem to have."
+    },
+    {
+    "author": "Harriet Beecher Stowe",
+    "quote": "Never give up, for that is just the place and time that the tide will turn."
+    },
+    {
+    "author": "Lao Tzu",
+    "quote": "The journey of a thousand miles begins with one step."
+    },
+    {
+    "author": "George Eliot",
+    "quote": "It's never too late to be what you might have been."
+    },
+    {
+    "author": "George Bernard Shaw",
+    "quote": "Life isn't about finding yourself. It's about creating yourself."
+    },
+    {
+    "author": "Pablo Picasso",
+    "quote": "Every child is an artist. The problem is how to remain an artist once we grow up."
+    },
+    {
+    "author": "Charles Darwin",
+    "quote": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change."
+    },
+    {
+    "author": "Rumi",
+    "quote": "The wound is the place where the light enters you."
+    },
+    {
+    "author": "John Wooden",
+    "quote": "Success is never final, failure is never fatal. It's courage that counts."
+    },
+    {
+    "author": "Dr. Seuss",
+    "quote": "Why fit in when you were born to stand out?"
+    },
+    {
+    "author": "Jimi Hendrix",
+    "quote": "Knowledge speaks, but wisdom listens."
+    },
+    {
+    "author": "Mae West",
+    "quote": "You only live once, but if you do it right, once is enough."
+    },
+    {
+    "author": "Eleanor Roosevelt",
+    "quote": "The future belongs to those who believe in the beauty of their dreams."
+    },
+    {
+    "author": "Winston S. Churchill",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+    },
+    {
+    "author": "Albert Einstein",
+    "quote": "Once you stop learning, you start dying."
+    },
+    {
+    "author": "Maya Angelou",
+    "quote": "You can’t use up creativity. The more you use, the more you have."
+    },
+    {
+    "author": "Steve Jobs",
+    "quote": "The only way to do great work is to love what you do."
+    },
+    {
+    "author": "Eleanor Roosevelt",
+    "quote": "The future belongs to those who believe in the beauty of their dreams."
+    },
+    {
+    "author": "Winston S. Churchill",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+    },
+    {
+    "author": "Albert Einstein",
+    "quote": "Once you stop learning, you start dying."
+    },
+    {
+    "author": "Maya Angelou",
+    "quote": "You can’t use up creativity. The more you use, the more you have."
+    },
+    {
+    "author": "Steve Jobs",
+    "quote": "The only way to do great work is to love what you do."
+    },
+    {
+    "author": "Ernest Hemingway",
+    "quote": "The only way to do great work is to love what you do."
+    },
+    {
+    "author": "Heraclitus",
+    "quote": "Change is the only constant in life."
+    },
+    {
+    "author": "Johann Wolfgang von Goethe",
+    "quote": "Doubt grows with knowledge."
+    },
+    {
+    "author": "Epicurus",
+    "quote": "Do not spoil what you have by desiring what you have not."
+    },
+    {
+    "author": "Ralph Waldo Emerson",
+    "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+    },
+    {
+    "author": "Mark Twain",
+    "quote": "The secret of getting ahead is getting started."
+    },
+    {
+    "author": "Socrates",
+    "quote": "An unexamined life is not worth living."
+    },
+    {
+    "author": "Voltaire",
+    "quote": "Judge a man by his questions rather than by his answers."
+    },
+    {
+    "author": "Plato",
+    "quote": "Wise men speak because they have something to say; fools because they have to say something."
+    },
+    {
+    "author": "John Lennon",
+    "quote": "Life is what happens when you're busy making other plans."
+    },
+    {
+    "author": "Ralph Waldo Emerson",
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."
+    },
+    {
+    "author": "Eleanor Roosevelt",
+    "quote": "Do one thing every day that scares you."
+    },
+    {
+    "author": "Bruce Lee",
+    "quote": "The successful warrior is the average man, with laser-like focus."
+    },
+    {
+    "author": "Aesop",
+    "quote": "No act of kindness, no matter how small, is ever wasted."
+    },
+    {
+    "author": "George Bernard Shaw",
+    "quote": "The single biggest problem in communication is the illusion that it has taken place."
+    },
+    {
+    "author": "John C. Maxwell",
+    "quote": "A leader is one who knows the way, goes the way, and shows the way."
+    },
+    {
+    "author": "Aristotle",
+    "quote": "Knowing yourself is the beginning of all wisdom."
+    },
+    {
+    "author": "Napoleon Hill",
+    "quote": "Whatever the mind can conceive and believe, it can achieve."
+    },
+    {
+    "author": "Mae Jemison",
+    "quote": "Never limit yourself because of others' limited imagination; never limit others because of your own limited imagination."
+    },
+    {
+    "author": "Helen Keller",
+    "quote": "The best way to predict the future is to create it."
+    },
+    {
+    "author": "George Washington Carver",
+    "quote": "Start where you are. Use what you have. Do what you can."
+    },
+    {
+    "author": "Elbert Hubbard",
+    "quote": "Do not take life too seriously. You will never get out of it alive."
+    },
+    {
+    "author": "Jim Rohn",
+    "quote": "Either you run the day, or the day runs you."
+    },
+    {
+    "author": "William James",
+    "quote": "Act as if what you do makes a difference. It does."
+    },
+    {
+    "author": "Abraham Lincoln",
+    "quote": "I'm a success today because I had a friend who believed in me and I didn't have the heart to let him down."
+    },
+    {
+    "author": "Epictetus",
+    "quote": "We cannot choose our external circumstances, but we can always choose how we respond to them."
+    },
+    {
+    "author": "J.R.R. Tolkien",
+    "quote": "Not all those who wander are lost."
+    },
+    {
+    "author": "Vincent Van Gogh",
+    "quote": "Great things are not done by impulse, but by a series of small things brought together."
+    },
+    {
+    "author": "Confucius",
+    "quote": "It does not matter how slowly you go as long as you do not stop."
+    },
+    {
+    "author": "Coco Chanel",
+    "quote": "The most courageous act is still to think for yourself. Aloud."
+    },
+    {
+    "author": "Oscar Wilde",
+    "quote": "Be yourself; everyone else is already taken."
+    },
+    {
+    "author": "Henry David Thoreau",
+    "quote": "Go confidently in the direction of your dreams. Live the life you have imagined."
+    },
+    {
+    "author": "Winston Churchill",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+    },
+    {
+    "author": "Ayn Rand",
+    "quote": "The question isn’t who is going to let me; it’s who is going to stop me."
+    },
+    {
+    "author": "Malcolm X",
+    "quote": "If you have no critics, you'll likely have no success."
+    },
+    {
+    "author": "Ralph Waldo Emerson",
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+    },
+    {
+    "author": "George Eliot",
+    "quote": "It's never too late to be what you might have been."
+    },
+    {
+    "author": "George Bernard Shaw",
+    "quote": "Life isn't about finding yourself. It's about creating yourself."
+    },
+    {
+    "author": "Pablo Picasso",
+    "quote": "Every child is an artist. The problem is how to remain an artist once we grow up."
+    },
+    {
+    "author": "Charles Darwin",
+    "quote": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change."
+    },
+    {
+    "author": "Rumi",
+    "quote": "The wound is the place where the light enters you."
+    },
+    {
+    "author": "John Wooden",
+    "quote": "Success is never final, failure is never fatal. It's courage that counts."
+    },
+    {
+    "author": "Dr. Seuss",
+    "quote": "Why fit in when you were born to stand out?"
+    },
+    {
+    "author": "Jimi Hendrix",
+    "quote": "Knowledge speaks, but wisdom listens."
+    },
+    {
+    "author": "Mae West",
+    "quote": "You only live once, but if you do it right, once is enough."
+    },
+    {
+    "author": "Albert Einstein",
+    "quote": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."
+    },
+    {
+    "author": "Steve Jobs",
+    "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."
+    },
+    {
+    "author": "Vincent Van Gogh",
+    "quote": "I would rather die of passion than of boredom."
+    },
+    {
+    "author": "Maya Angelou",
+    "quote": "You can’t use up creativity. The more you use, the more you have."
+    },
+    {
+    "author": "Aristotle",
+    "quote": "Knowing yourself is the beginning of all wisdom."
+    },
+    {
+    "author": "Walt Disney",
+    "quote": "The way to get started is to quit talking and begin doing."
+    },
+    {
+    "author": "Helen Keller",
+    "quote": "The best way to predict the future is to create it."
+    },
+    {
+    "author": "George Washington Carver",
+    "quote": "Start where you are. Use what you have. Do what you can."
+    },
+    {
+    "author": "Elbert Hubbard",
+    "quote": "Do not take life too seriously. You will never get out of it alive."
+    }
+]
+
+  

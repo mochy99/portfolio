@@ -1,0 +1,91 @@
+{
+    "landingPage": {
+      "header": "Software Engineer",
+      "name": "Mochy Nguyen",
+      "nav" : [
+        "About Me", "Skills", "Certifications", " Projects", "Contact"
+      ],
+      "tagline": "Passionate about creating innovative solutions.",
+      "links": {
+        "portfolio": "My Portfolio",
+        "linkedin": "My LinkedIn",
+        "github": "My Github"
+      }
+    },
+    "aboutMe": {
+      "name": "Mochy Nguyen",
+      "bio": "Hello! I'm Mochy Nguyen, a passionate and self-motivated software engineer based in Vancouver. While I may not hold a traditional university degree, my journey in technology is marked by a commitment to continuous learning and a love for hands-on experience.",
+      "aspiration": "Looking ahead, I am excited about contributing to innovative projects and exploring new horizons in software development. My commitment to agile methodologies, continuous integration, and a strong focus on product development align with my vision for shaping the future of technology. Join me on this exciting journey where learning, creativity, and a passion for technology converge!",
+      "hobbies": [
+        "Culinary Explorer",
+        "Wanderlust Adventurer",
+        "Voracious Reader"
+      ]
+    
+    },
+    "certifications": [
+      {
+        "name": "ALGORITHMS SPECIALIZATION",
+        "institution": "Stanford University | Coursera",
+        "completionDate": "Jan 2024",
+        "knowledgeGained": "Focused on algorithm design paradigms, data structures, and solving NP-hard problems",
+        "link": "https://www.coursera.org/account/accomplishments/specialization/2LYXMZBL3U8N"
+      },
+      {
+        "name": "AWS CLOUD TECHNICAL ESSENTIALS",
+        "institution": "Amazon Web Service | Coursera",
+        "completionDate": "Jan 2024",
+        "knowledgeGained": "Compute services distinctions (EC2, Lambda, ECS), and database/storage offerings (RDS, DynamoDB, S3)",
+        "link": "https://www.coursera.org/account/accomplishments/verify/Y25447WYPPSR"
+      },
+      {
+        "name": "REACT BASICS",
+        "institution": "Meta | Coursera",
+        "completionDate": "Feb 2024",
+        "knowledgeGained": "Enhance React projects, utilize props, implement forms, and develop interactive applications",
+        "link": "https://www.coursera.org/account/accomplishments/verify/DJJSB5NZE2HK"
+      },
+      {
+        "name": "DATABASES: RELATIONAL DATABASE & SQL",
+        "institution": "Stanford University | edX",
+        "completionDate": "Jan 2024",
+        "knowledgeGained": "Acquired knowledge in relational databases, SQL commands, and database design principles",
+        "link": "https://courses.edx.org/certificates/06f5c018a8d34922ab87ffbc05d50e25"
+      }
+    ],
+    "skills": {
+      "programming": {
+        "title": "Programming",
+        "description": "HTML, CSS, JavaScript, PHP, SQL, Python, Dr.Racket, Java"
+      },
+      "frameworksLibrariesTools": {
+        "title": "Frameworks, libraries, tools",
+        "description": "React, AWS, RESTful API, jQuery, phpMyAdmin, Tableau, Bootstrap, Alpha Vantage API, Highcharts, Git"
+      }
+    },
+    "projects": [
+      {
+        "title": "TradeX Project",
+        "description": "Real-time trading web app for stocks and cryptocurrencies",
+        "techniques": "HTML, CSS, JavaScript, PHP, SQL, phpMyAdmin, jQuery, Alpha Vantage API, Highcharts",
+        "highlights": "Data-driven, secure login, real-time trading, responsive design",
+        "link": "http://mochy.me/TradeX/"
+      },
+      {
+        "title": "Sudoku Project",
+        "description": "Sudoku game with a completion target under 10 minutes",
+        "techniques": "HTML, CSS, JavaScript",
+        "highlights": "Time-based challenge, multiple difficult levels, hint system, interactive interface",
+        "link": "http://mochy.me/sudoku/"
+      }
+    ],
+    "contact": {
+      "email": "mochynguyen99@gmail.com",
+      "phone": "778 697 5681",
+      "links": {
+        "linkedin": "My LinkedIn",
+        "github": "My Github"
+      }
+    }
+  }
+  

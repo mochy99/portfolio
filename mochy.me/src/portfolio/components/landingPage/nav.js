@@ -1,12 +1,13 @@
 import React from "react";
+import { DataConsumption } from "../data";
 
 function Nav() {
-    const nav = require('../../softwareEngineer.json') // data structure is array
-    console.log(nav)
+    const data = DataConsumption()
+    const nav = data.landingPage.nav
     return (
         <ul id='nav'>
             {
-            nav.landingPage.nav.map((section, index) => (
+            nav.map((section, index) => (
                 <li key={index} className='submerge'>{section}</li>
             ))
             }

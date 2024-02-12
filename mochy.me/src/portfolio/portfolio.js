@@ -14,8 +14,8 @@ function Portfolio() {
     return (
         <DataProvider>
             <LandingPage />
-            {/* <AboutMe />
-            <Skills />
+            <AboutMe />
+            {/* <Skills />
             <Certifications />
             <Projects />
             <Contact /> */}

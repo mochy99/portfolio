@@ -8,23 +8,38 @@ import ProjectIcon from "../../../img/project.js";
 import SkillIcon from "../../../img/skill.js";
 
 
-function Nav() {
+function Nav({idNav}) {
     const data = DataConsumption();
     const nav = data.landingPage.nav;
-    const [idNav, setIdNav] = useState('navRoll');
     const navIcon = [HomeIcon, AboutMeIcon, SkillIcon, CerfIcon, ProjectIcon, ContactIcon];
+    const [index, setIndex] = useState(null);
+    
 
     return (
-        <ul id={idNav}>
-          {navIcon.map((Icon, i) => ( 
-            <li key={i} className={`submerge${idNav === 'nav' && i === 0 ? ' disable' : ''}`}>
-              {idNav !== 'nav' && <Icon />} 
-              <span className='iconHover'>{nav[i]}</span>
-               
-            </li>
-          ))}
+        <ul className={idNav} >
+            {navIcon.map((Icon, i) => ( 
+                <li
+                    key={i}
+                    className={`submerge${idNav === 'nav' && i === 0 ? ' disable' : ''}${i === index ? ' navHovered' : ''}`}
+
+                    onMouseEnter={() => setIndex(i)}
+                    onMouseLeave={() => setIndex(null)}
+                    
+                >
+
+                    {idNav !== 'nav' && <Icon />} 
+
+                    <span
+                        key={i}
+                        className={`${idNav === 'navRoll' ? 'iconHover' : ''} ${ i == index ? 'hovered' : ''}`}
+                    >
+                        {nav[i]}
+                    </span>
+                
+                </li>
+            ))}
         </ul>
-      );
+    );
       
     
 }

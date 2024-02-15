@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Quote from "./quote";
 import Nav from "./nav";
 
 function LandingPage() {
-  
+    const [navClass, setNavClass] = useState('nav');
     useEffect(() => {
         const canvas = document.getElementById('canvas');
         const context = canvas.getContext('2d');
@@ -26,9 +26,24 @@ function LandingPage() {
         }
 
     }, []);
+    const [positionY, setPositionY] = useState(0);
+    function hanldeMouseWheeling() {
+        const targetElement = document.getElementById('landingPage');
+        if (targetElement) {
+        const rect = targetElement.getBoundingClientRect().top;
+        setPositionY(rect);
+        }
+    }
+    useEffect(() => {
+        const threshold = -5;
+        positionY < threshold ?  setNavClass("navRoll") : setNavClass("nav"); 
+    }, [positionY, setNavClass])
+    
+
+
 
     return (
-        <section id='landingPage'>
+        <section id='landingPage' onWheel={hanldeMouseWheeling}>
             <Quote />
             <canvas id="canvas"></canvas>
             <div id='position'>SOFTWARE ENGINEER</div>
@@ -37,7 +52,7 @@ function LandingPage() {
                 <div>FOLIO</div>
             </div>
             <div id='name'>MOCHY NGUYEN</div>
-            <Nav />
+            <Nav idNav={navClass}/>
         </section>
     );
 }

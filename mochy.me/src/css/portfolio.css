@@ -3,7 +3,7 @@
     --background-color-1: rgb(14,14,14);
     --background-color-2: rgb(34,43,47);
     --dark-shadow: rgb(0, 0, 0);
-    --bright-shadow: rgb(60,60,60);
+    --bright-shadow: rgba(60,60,60,0.7);
 }
 
 *{
@@ -16,7 +16,7 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, var(--background-color-1), var(--background-color-2));
+    background-color: var(--background-color-2);
 }
 .floaty, .submerge {
     background: var(--background-color-2);
@@ -25,14 +25,17 @@ body{
 }
 .floaty, .submerge:hover {
     box-shadow:
-        -5px -5px 6px 1px var(--dark-shadow), 
-        5px 5px 6px 1px var(--bright-shadow); 
+        3px 3px 4px 0.5px var(--bright-shadow),
+        -5px -5px 6px 1px var(--dark-shadow); 
 }
 .submerge,.floaty:hover {  
-    
     box-shadow:
         inset -5px -5px 5px 0px var(--bright-shadow),
         inset 5px 5px 5px 0px var(--dark-shadow);
+}
+
+.disable {
+    visibility: hidden;
 }
 
 /* Specific id */
@@ -98,24 +101,66 @@ body{
 }
 
 /* Nav landing page */
-#nav {
+.nav, .navRoll {
     position: fixed;
-    top : 11.125vh;
+    top : 12.125vh;
     right: 0;
     display: flex;
+}
+.nav {
     width: 55vw;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     padding-left: 2vw;
     padding-right: 2vw;
     list-style: none;
 }
-li {
-    font-size: 1.5vw;
-    height: max-content;
 
+.navRoll {
+    right: 2vw;
+    flex-direction: column;
+    gap: 3vh;
+    width: 7vh;
+    height: 50vh;
     display: flex;
-    align-items: center;
-    padding: 1vw;
-    
+    align-items: end;
 }
+
+li {
+    float: right;
+    font-size: 2.5vh;
+    height: max-content;
+    padding: 1vw;
+}
+.navRoll > li {
+    display: flex;
+    align-items: center; 
+    justify-content: center;   
+    flex-grow: 1;
+    width: max-content;
+    white-space: nowrap;
+}
+li.navHovered {
+    width: max-content;
+    white-space: nowrap;
+}
+
+svg {
+    width : 2.5vh;
+    height: 2.5vh;
+    padding-right: 1vh;
+}
+svg path {
+    fill: white;
+}
+.iconHover {
+    font-size: 2.5vh;
+    height: 3vh;
+    display: none;
+}
+
+.hovered{
+    display: block; 
+}
+
+

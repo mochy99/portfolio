@@ -2,8 +2,10 @@
     --font-size-quote: 2vh;
     --background-color-1: rgb(14,14,14);
     --background-color-2: rgb(34,43,47);
-    --dark-shadow: rgb(0, 0, 0);
-    --bright-shadow: rgba(60,60,60,0.7);
+    --dark-shadow: rgb(19,20,22);
+    --bright-shadow: rgb(57,60,64);
+    --box-color: rgba(27,32,34, 0.7);
+
 }
 
 *{
@@ -25,17 +27,24 @@ body{
 }
 .floaty, .submerge:hover {
     box-shadow:
-        3px 3px 4px 0.5px var(--bright-shadow),
-        -5px -5px 6px 1px var(--dark-shadow); 
+        4px 4px 5px 0px var(--dark-shadow),
+        -4px -4px 10px 0px var(--bright-shadow); 
 }
 .submerge,.floaty:hover {  
     box-shadow:
-        inset -5px -5px 5px 0px var(--bright-shadow),
-        inset 5px 5px 5px 0px var(--dark-shadow);
+        inset -4px -4px 5px 0px var(--bright-shadow),
+        inset 4px 4px 10px 0px var(--dark-shadow);
 }
 
 .disable {
     visibility: hidden;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Specific id */
@@ -161,6 +170,14 @@ svg path {
 
 .hovered{
     display: block; 
+}
+
+/* About me Page */
+#aboutme {
+    background: var(--box-color);
+    width: 60vw;
+    height: 50vh;
+    padding: 2vw;
 }
 
 

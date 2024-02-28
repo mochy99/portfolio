@@ -20,13 +20,12 @@ function Nav({idNav}) {
             {navIcon.map((Icon, i) => ( 
                 <li
                     key={i}
-                    className={`submerge${idNav === 'nav' && i === 0 ? ' disable' : ''}${i === index ? ' navHovered' : ''}`}
+                    className={`floaty${idNav === 'nav' && i === 0 ? ' disable' : ''}${i === index ? ' navHovered' : ''}`}
 
                     onMouseEnter={() => setIndex(i)}
                     onMouseLeave={() => setIndex(null)}
                     
                 >
-
                     {idNav !== 'nav' && <Icon />} 
 
                     <span

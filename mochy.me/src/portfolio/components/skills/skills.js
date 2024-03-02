@@ -12,7 +12,7 @@ function Skills(props) {
             ))}
     
             {tools.map((tool) => (
-                <Skill  />
+                <Skill value={tool} />
             ))}
         </>
         

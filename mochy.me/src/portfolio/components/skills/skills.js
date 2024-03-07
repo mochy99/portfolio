@@ -11,7 +11,9 @@ function Skills(props) {
                 <Skill value={skill} />
             ))}
     
-            
+            {tools.map((tool) => (
+                <Skill value={tool} />
+            ))}
         </>
         
         

@@ -133,8 +133,7 @@ $(document).ready(function () {
     })
 
     // Display images of project 2
-    const image = ["../image/tradeX/1.jpg", "../image/tradeX/2.jpg", "../image/tradeX/3.jpg", "image/tradeX/4.jpg", "image/tradeX/5.jpg",
-                    "image/tradeX/6.jpg", "image/tradeX/7.jpg"];
+    const image = ["./image/tradeX/1.png", "./image/tradeX/2.png", "./image/tradeX/3.png", "./image/tradeX/4.png"];
     let index = 1;
     setInterval(function() {
         const currentIndex = index % image.length;
@@ -148,7 +147,30 @@ $(document).ready(function () {
 
     }, 2000);
 
-    // View resume btn
+     // Display images of project 2
+    const image_mediTrak = ["./image/mediTrak/1.png", "./image/mediTrak/2.png", "./image/mediTrak/3.png", "./image/mediTrak/4.png"];
+
+    setInterval(function() {
+        const currentIndex = index % image_mediTrak.length;
+        $("#img-pj3").addClass('slide-in'); 
+        setTimeout(function() {
+            $("#img-pj3")
+            .css('background-image', `url(${image_mediTrak[currentIndex]})`)
+            .removeClass('slide-in'); 
+        }, 500); 
+        index++;
+
+    }, 2000);
+
+   
+    document.querySelectorAll('.skill-icon').forEach(icon => {
+        const id = icon.id;
+        if (id) {
+            icon.style.backgroundImage = `url(./image/${id}.png)`;
+        }
+    });
+
+    
 
 
 

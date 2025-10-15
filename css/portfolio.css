@@ -242,8 +242,9 @@ main {
     background-position: center;
     border-radius: 10px;
 }
+
 #img-pj1 {
-    background-image: url("../image/sudoku.jpg");
+    background-image: url("../image/sudoku.png");
 }
 
 #img-pj2 {
@@ -251,8 +252,12 @@ main {
     transition: background-image 0.5s ease-in-out, transform 0.5s ease-in-out;
     transform: translateX(0); 
 }
+#img-pj3 {
+    width: 62vh;
+    height: 35vh;
+}
 .slide-in {
-    animation: collapse-left 0.3 linear; /* Slide in from the left */
+    animation: collapse-left 0.3 linear;
 }
 .expand, .collapse {
     /* border: 1px red solid; */
